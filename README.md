@@ -2,13 +2,22 @@
 
 A demo E-commerce backend build with Express.js
 
-## How to run?
+## How to run server?
 
 Please run the following commands.
 
 1.  `npm install` in project root.
 2.  `npm run dev` to run the project in watch mode.
 3.  Server will be live on `http://localhost:3000`
+
+## How to run dashboard?
+
+Please run the following commands.
+
+1.  `cd dashboard` navigate to dashboard folder.
+2.  `npm install`.
+3.  `npm run serve` to run the dashboard.
+4.  Dashboard will be live on `http://localhost:8080`
 
 ## Device Routes
 
