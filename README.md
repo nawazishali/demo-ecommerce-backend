@@ -1,6 +1,6 @@
 # demo-ecommerce-backend
 
-A demo E-commerce backend build with Express.js
+A demo E-commerce backend built with Express.js
 
 ## How to run server?
 
