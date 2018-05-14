@@ -8,11 +8,26 @@ var deviceVariantSchema = new Schema({
     type: mongoose.Schema.Types.ObjectId,
     required: true
   },
-  price: Number,
-  color: String,
-  storage: String,
-  quantity: Number,
-  image_url: String
+  price: {
+    type: Number,
+    required: true
+  },
+  color: {
+    type: String,
+    required: true
+  },
+  storage: {
+    type: String,
+    required: true
+  },
+  quantity: {
+    type: Number,
+    required: true
+  },
+  image_url: {
+    type: String,
+    required: true
+  }
 });
 
 // the schema is useless so far

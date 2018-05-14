@@ -6,6 +6,7 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
 var deviceRouter = require("./routes/device");
+var variantsRouter = require("./routes/device_variants");
 
 //Import the mongoose module
 var mongoose = require("mongoose");
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/device", deviceRouter);
+app.use("/variants", variantsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

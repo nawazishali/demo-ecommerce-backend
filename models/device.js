@@ -6,13 +6,14 @@ var Schema = mongoose.Schema;
 var deviceSchema = new Schema({
   name: {
     type: String,
-    unique: true
+    unique: true,
+    required: true
   },
-  image_url: String,
-  variants: {
-    type: String,
-    ref: "DeviceVariant"
-  }
+  image_url: String
+  // variants: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: "DeviceVariant"
+  // }
 });
 
 // the schema is useless so far
